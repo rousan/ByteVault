@@ -1,0 +1,3 @@
+#include "include/resource.h"
+
+BV_RC_1 RCDATA "include/resource/test.txt"

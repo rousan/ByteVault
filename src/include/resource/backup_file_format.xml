@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<backup generated-by="ByteVault" app-version="1.0.0" date="12th nov, 2016" username="byter">
+    <byte id="9" name="Email Accounts" parent-byte-id="0" date-created="4th nov, 2016"
+          date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+        <bytedata key="Username" value="rousanali786"/>
+        <bytedata key="Password" value="14245tfhu67"/>
+        <byte id="10" name="Email Accounts" parent-byte-id="9" date-created="4th nov, 2016"
+              date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+            <bytedata key="Username" value="rousanali786"/>
+            <bytedata key="Password" value="14245tfhu67"/>
+        </byte>
+    </byte>
+    <byte id="9" name="Email Accounts" parent-byte-id="0" date-created="4th nov, 2016"
+          date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+        <bytedata key="Username" value="rousanali786"/>
+        <bytedata key="Password" value="14245tfhu67"/>
+        <byte id="10" name="Email Accounts" parent-byte-id="9" date-created="4th nov, 2016"
+              date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+            <bytedata key="Username" value="rousanali786"/>
+            <bytedata key="Password" value="14245tfhu67"/>
+            <byte id="9" name="Email Accounts" parent-byte-id="0" date-created="4th nov, 2016"
+                  date-last-modified="7th nov, 2016" last-modifying-text="kjgkg////\\\\'g">
+                <bytedata key="Username" value="rousanali786"/>
+                <bytedata key="Password" value="14245tfhu67"/>
+                <byte id="10" name="Email Accounts" parent-byte-id="9" date-created="4th nov, 2016"
+                      date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+                    <bytedata key="Username" value="rousanali786"/>
+                    <bytedata key="Password" value="14245tfhu67"/>
+                    <byte id="9" name="Email Accounts" parent-byte-id="0" date-created="4th nov, 2016"
+                          date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+                        <bytedata key="Username" value="rousanali786"/>
+                        <bytedata key="Password" value="14245tfhu67"/>
+                        <byte id="10" name="Email Accounts" parent-byte-id="9" date-created="4th nov, 2016"
+                              date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+                            <bytedata key="Username" value="rousanali786"/>
+                            <bytedata key="Password" value="14245tfhu67"/>
+                        </byte>
+                    </byte>
+                </byte>
+            </byte>
+        </byte>
+    </byte>
+    <byte id="9" name="Email Accounts" parent-byte-id="0" date-created="4th nov, 2016"
+          date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+        <bytedata key="Username" value="rousanali786"/>
+        <bytedata key="Password" value="14245tfhu67"/>
+        <byte id="10" name="Email Accounts" parent-byte-id="9" date-created="4th nov, 2016"
+              date-last-modified="7th nov, 2016" last-modifying-text="kjgkgg">
+            <bytedata key="Username" value="rousanali786"/>
+            <bytedata key="Password" value="14245tfhu67"/>
+        </byte>
+    </byte>
+</backup>

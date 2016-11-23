@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/database.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/user.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/commands.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/utils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/viewer.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/logger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/command_actions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/encryption.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/linked_list.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/constants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/error_messages.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/pragma.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/database.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/viewer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/resource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/utils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/sqlite/sqlite3.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/commands.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/user.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/include/common.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/command_actions.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/logger.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/encryption.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/linked_list.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
