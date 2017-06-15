@@ -7,8 +7,8 @@ A command line application that stores sensitive data like `password`, `username
 Here all your data is considered as a single `Byte`, for example suppose I want to store my `Github` account details, so I have
 to add a `Byte` named `Github Account`(whatever you name it) and this byte has two key-value pairs:
 
- * {&nbsp; key: `Username`, value: `ariyankhan` &nbsp;},
- * {&nbsp; key: `Password`, value: `Sorry! I can't tell` &nbsp;}
+ * {&nbsp; key: "Username",&nbsp; value: "ariyankhan" &nbsp;},
+ * {&nbsp; key: "Password",&nbsp; value: "Sorry! I can't tell" &nbsp;}
  
  That's it!
  
