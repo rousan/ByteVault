@@ -45,7 +45,7 @@ You can use the following commands to manipulate and store your data into `ByteV
  * `/?` ( show help docs )
  
  
- ## Installation
+## Installation
  
  Here `CMake` is used as build tool, so at first compile it with `CMAKE` and run.
  
