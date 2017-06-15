@@ -47,7 +47,7 @@ You can use the following commands to manipulate and store your data into `ByteV
  
 ## Installation
  
- Here `CMake` is used as build tool, so at first compile it with `CMAKE` and run.
+ Here `CMake` is used as build tool, so download project files and compile it with `CMAKE` and run it.
  
 ## Contributors
 
