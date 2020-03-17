@@ -7,7 +7,7 @@ A command line application that stores sensitive data like `password`, `username
 Here all your data is considered as a single `Byte`, for example suppose I want to store my `Github` account details, so I have
 to add a `Byte` named `Github Account`(whatever you name it) and this byte has two key-value pairs:
 
- * {&nbsp; key: "Username",&nbsp; value: "ariyankhan" &nbsp;},
+ * {&nbsp; key: "Username",&nbsp; value: "rousanali" &nbsp;},
  * {&nbsp; key: "Password",&nbsp; value: "Sorry! I can't tell" &nbsp;}
  
  That's it!
@@ -50,8 +50,6 @@ You can use the following commands to manipulate and store your data into `ByteV
  Here `CMake` is used as build tool, so download project files and compile it with `CMAKE` and run it.
  
 ## Contributors
-
-   * [Rousan Ali](https://github.com/ariyankhan)
    
    Contributions are welcome
    
