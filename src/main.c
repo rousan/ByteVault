@@ -1,5 +1,5 @@
 //
-// Created by Ariyan Khan on 05-10-2016.
+// Created by Rousan Ali on 05-10-2016.
 //
 
 #include <windows.h>
@@ -22,9 +22,9 @@
 #include "include/command_actions.h"
 #include "include/constants.h"
 
-
 int test();
-int main(int argc, char** argv) {
+int main(int argc, char **argv)
+{
     bv_callback_on_app_start();
     command_processor(argc, argv, BV_EXECUTION_MODE_NORMAL);
     /*
@@ -32,7 +32,8 @@ int main(int argc, char** argv) {
      * THEN CLEAR SCREEN.
      * But in BV_EXECUTION_MODE_SHELL don't wait just clear screen.
      */
-    if(execution_mode == BV_EXECUTION_MODE_NORMAL) {
+    if (execution_mode == BV_EXECUTION_MODE_NORMAL)
+    {
         fprintf(stdout, "Enter any key to exit: ");
         getch();
     }
@@ -42,13 +43,16 @@ int main(int argc, char** argv) {
 }
 
 short bv_backup_back_to_chars;
-static void bv_backup_callback(int code, size_t total_backed_up, size_t total_bytes) {
-    if(code == 0x1) {
+static void bv_backup_callback(int code, size_t total_backed_up, size_t total_bytes)
+{
+    if (code == 0x1)
+    {
         short i = 0;
         char temp[10];
         double percent = 0.00;
 
-        for(i = 0; i<bv_backup_back_to_chars; i++) {
+        for (i = 0; i < bv_backup_back_to_chars; i++)
+        {
             fprintf(stdout, "\b");
         }
         percent = ((double)total_backed_up / (double)total_bytes) * (double)100;
@@ -58,37 +62,31 @@ static void bv_backup_callback(int code, size_t total_backed_up, size_t total_by
     }
 }
 
-
-
-typedef struct LocalStorage {
-    void (*print)(struct LocalStorage*);
+typedef struct LocalStorage
+{
+    void (*print)(struct LocalStorage *);
 } LocalStorage;
 
-void ___ls_print___(struct LocalStorage*);
+void ___ls_print___(struct LocalStorage *);
 
-void ___ls_print___(struct LocalStorage* ptr) {
+void ___ls_print___(struct LocalStorage *ptr)
+{
     printf("dfsfssdffds");
 }
 
-LocalStorage LS_Init() {
+LocalStorage LS_Init()
+{
     LocalStorage ls;
     ls.print = &___ls_print___;
     return ls;
 }
 
+int test()
+{
 
-int test() {
+    //bv_log("%d", execution_mode);
 
-
-
-
-
-
-
-//bv_log("%d", execution_mode);
-
-
-  /*HANDLE file = CreateFile("Z:\\Projects\\C & CPP\\CLion\\ByteVault\\src\\test.txt", GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+    /*HANDLE file = CreateFile("Z:\\Projects\\C & CPP\\CLion\\ByteVault\\src\\test.txt", GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
     //WINBOOL done = LockFile(file, 0, 0, LONG_MAX, LONG_MAX);
 
     //printf("%d", done);
@@ -105,8 +103,6 @@ int test() {
     getch();
 
 */
-
-
 
     /*HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
 DWORD dword;;;
@@ -200,7 +196,7 @@ DWORD dword;;;
 
 
 
-    bv_get_direct_child_bytes("ariyankhan", 2, 1, &node, &errMsg);
+    bv_get_direct_child_bytes("rousanali", 2, 1, &node, &errMsg);
     printf("%llu", bv_ll_count(node));
 
 
@@ -235,7 +231,7 @@ DWORD dword;;;
 
 /*bv_data data1 = {"Username", "byter"};
 bv_data data2 = {"Password", "4324d2422234"};
-bv_data data3 = {"Email", "ariyankhan46@gmail.com"};
+bv_data data3 = {"Email", "hello@rousan.io"};
 bv_data* data = malloc(sizeof(bv_data)*3);
 data[0] = data1;
 data[1] = data2;
@@ -260,21 +256,3 @@ bv_print_bytes("ujfujhgjh", bytes, 10);
 
 */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

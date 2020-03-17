@@ -1,5 +1,5 @@
 //
-// Created by Ariyan Khan on 05-10-2016.
+// Created by Rousan Ali on 05-10-2016.
 //
 
 #ifndef BYTEVAULT_ENCRYPTION_H
